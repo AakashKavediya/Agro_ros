@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing Agro_ros.egg-info/PKG-INFO
+writing dependency_links to Agro_ros.egg-info/dependency_links.txt
+writing entry points to Agro_ros.egg-info/entry_points.txt
+writing requirements to Agro_ros.egg-info/requires.txt
+writing top-level names to Agro_ros.egg-info/top_level.txt
+reading manifest file 'Agro_ros.egg-info/SOURCES.txt'
+writing manifest file 'Agro_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages/Agro-ros.egg-link (link to .)
+
+Installed /home/ubuntu/ros/Agro_ros/build/Agro_ros
+running symlink_data
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/resource/Agro_ros -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/package.xml -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/urdf/robot.urdf -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/urdf
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_water_level_sensor.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_tracks.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_body.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_tracks_outer_cover.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_water_pump.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes

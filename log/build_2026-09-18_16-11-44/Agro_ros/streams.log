@@ -1,0 +1,24 @@
+[0.906s] Invoking command in '/home/ubuntu/ros/Agro_ros/build/Agro_ros': PYTHONPATH=/home/ubuntu/ros/Agro_ros/build/Agro_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros/Agro_ros/build/Agro_ros/build --no-deps symlink_data --force
+[1.179s] running develop
+[1.376s] running egg_info
+[1.376s] writing Agro_ros.egg-info/PKG-INFO
+[1.376s] writing dependency_links to Agro_ros.egg-info/dependency_links.txt
+[1.377s] writing entry points to Agro_ros.egg-info/entry_points.txt
+[1.377s] writing requirements to Agro_ros.egg-info/requires.txt
+[1.377s] writing top-level names to Agro_ros.egg-info/top_level.txt
+[1.381s] reading manifest file 'Agro_ros.egg-info/SOURCES.txt'
+[1.382s] writing manifest file 'Agro_ros.egg-info/SOURCES.txt'
+[1.384s] running build_ext
+[1.385s] Creating /home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages/Agro-ros.egg-link (link to .)
+[1.386s] 
+[1.386s] Installed /home/ubuntu/ros/Agro_ros/build/Agro_ros
+[1.386s] running symlink_data
+[1.386s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/resource/Agro_ros -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/ament_index/resource_index/packages
+[1.387s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/package.xml -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros
+[1.387s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/urdf/robot.urdf -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/urdf
+[1.387s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_water_level_sensor.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+[1.387s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_tracks.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+[1.388s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_body.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+[1.388s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_tracks_outer_cover.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+[1.389s] symbolically linking /home/ubuntu/ros/Agro_ros/build/Agro_ros/meshes/agro_ros_water_pump.stl -> /home/ubuntu/ros/Agro_ros/install/Agro_ros/share/Agro_ros/meshes
+[1.414s] Invoked command in '/home/ubuntu/ros/Agro_ros/build/Agro_ros' returned '0': PYTHONPATH=/home/ubuntu/ros/Agro_ros/build/Agro_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros/Agro_ros/build/Agro_ros/build --no-deps symlink_data --force

@@ -1,0 +1,74 @@
+[0.271s] Invoking command in '/home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros/Agro_ros/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry
+[0.794s] -- The C compiler identification is GNU 11.4.0
+[1.069s] -- The CXX compiler identification is GNU 11.4.0
+[1.102s] -- Detecting C compiler ABI info
+[1.227s] -- Detecting C compiler ABI info - done
+[1.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.246s] -- Detecting C compile features
+[1.248s] -- Detecting C compile features - done
+[1.254s] -- Detecting CXX compiler ABI info
+[1.366s] -- Detecting CXX compiler ABI info - done
+[1.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.374s] -- Detecting CXX compile features
+[1.375s] -- Detecting CXX compile features - done
+[1.394s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.581s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.707s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.130s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[2.277s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.292s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.323s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.532s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.539s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.765s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.832s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.908s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.940s] -- Looking for pthread.h
+[3.074s] -- Looking for pthread.h - found
+[3.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.156s] -- Found Threads: TRUE  
+[3.362s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.408s] -- Found tf2_geometry_msgs: 0.25.23 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.451s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.455s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.455s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.736s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.782s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.858s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[3.962s] -- Configuring done
+[3.982s] -- Generating done
+[3.989s] -- Build files have been written to: /home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry
+[4.000s] Invoked command in '/home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros/Agro_ros/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry
+[4.003s] Invoking command in '/home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry -- -j28 -l28
+[4.077s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[4.078s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[4.079s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[25.906s] [ 80%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[25.907s] [100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[26.160s] [100%] Built target rf2o_laser_odometry
+[27.172s] [100%] Built target rf2o_laser_odometry_node
+[27.186s] Invoked command in '/home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry -- -j28 -l28
+[27.194s] Invoking command in '/home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry
+[27.201s] -- Install configuration: ""
+[27.201s] -- Execute custom install script
+[27.202s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[27.209s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[27.216s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[27.222s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[27.229s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[27.236s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[27.242s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[27.252s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[27.261s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[27.268s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[27.275s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[27.282s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[27.290s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[27.301s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[27.310s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[27.320s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[27.326s] -- Symlinking: /home/ubuntu/ros/Agro_ros/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[27.337s] Invoked command in '/home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros/Agro_ros/build/rf2o_laser_odometry

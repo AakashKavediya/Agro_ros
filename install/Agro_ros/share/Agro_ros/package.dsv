@@ -4,3 +4,6 @@ source;share/Agro_ros/hook/pythonpath.sh
 source;share/Agro_ros/hook/ament_prefix_path.ps1
 source;share/Agro_ros/hook/ament_prefix_path.dsv
 source;share/Agro_ros/hook/ament_prefix_path.sh
+source;../../build/Agro_ros/share/Agro_ros/hook/pythonpath_develop.ps1
+source;../../build/Agro_ros/share/Agro_ros/hook/pythonpath_develop.dsv
+source;../../build/Agro_ros/share/Agro_ros/hook/pythonpath_develop.sh

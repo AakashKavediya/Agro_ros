@@ -1,0 +1,16 @@
+[1.058s] Invoking command in '/home/ubuntu/ros/Agro_ros/build/Agro_ros': PYTHONPATH=/home/ubuntu/ros/Agro_ros/build/Agro_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros/Agro_ros/build/Agro_ros/build --no-deps symlink_data
+[1.410s] running develop
+[1.583s] running egg_info
+[1.583s] writing Agro_ros.egg-info/PKG-INFO
+[1.583s] writing dependency_links to Agro_ros.egg-info/dependency_links.txt
+[1.584s] writing entry points to Agro_ros.egg-info/entry_points.txt
+[1.584s] writing requirements to Agro_ros.egg-info/requires.txt
+[1.584s] writing top-level names to Agro_ros.egg-info/top_level.txt
+[1.586s] reading manifest file 'Agro_ros.egg-info/SOURCES.txt'
+[1.589s] writing manifest file 'Agro_ros.egg-info/SOURCES.txt'
+[1.589s] running build_ext
+[1.590s] Creating /home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages/Agro-ros.egg-link (link to .)
+[1.591s] 
+[1.591s] Installed /home/ubuntu/ros/Agro_ros/build/Agro_ros
+[1.592s] running symlink_data
+[1.620s] Invoked command in '/home/ubuntu/ros/Agro_ros/build/Agro_ros' returned '0': PYTHONPATH=/home/ubuntu/ros/Agro_ros/build/Agro_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/ros/Agro_ros/build/Agro_ros/build --no-deps symlink_data
