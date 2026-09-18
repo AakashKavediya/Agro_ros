@@ -1,0 +1,17 @@
+#refresh for urdf - robot.urdf file
+colcon build
+source install/setup.bash
+ros2 run robot_state_publisher robot_state_publisher src/Agro_ros/urdf/robot.urdf
+
+
+
+#joint_state_publisher_gui
+sudo apt update
+sudo apt install ros-humble-joint-state-publisher-gui
+source /opt/ros/humble/setup.bash
+ros2 pkg list | grep joint_state
+ros2 run joint_state_publisher_gui joint_state_publisher_gui
+
+
+#command to see join connection
+ros2 run tf2_tools view_frames

@@ -1,0 +1,20 @@
+[0.443s] Invoking command in '/home/ubuntu/ros/Agro_ros/src/Agro_ros': PYTHONPATH=/home/ubuntu/ros/Agro_ros/build/Agro_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Agro_ros build --build-base /home/ubuntu/ros/Agro_ros/build/Agro_ros/build install --record /home/ubuntu/ros/Agro_ros/build/Agro_ros/install.log --install-scripts $base/lib/Agro_ros --single-version-externally-managed install_data
+[0.616s] running egg_info
+[0.616s] writing ../../build/Agro_ros/Agro_ros.egg-info/PKG-INFO
+[0.616s] writing dependency_links to ../../build/Agro_ros/Agro_ros.egg-info/dependency_links.txt
+[0.616s] writing entry points to ../../build/Agro_ros/Agro_ros.egg-info/entry_points.txt
+[0.616s] writing requirements to ../../build/Agro_ros/Agro_ros.egg-info/requires.txt
+[0.616s] writing top-level names to ../../build/Agro_ros/Agro_ros.egg-info/top_level.txt
+[0.617s] reading manifest file '../../build/Agro_ros/Agro_ros.egg-info/SOURCES.txt'
+[0.618s] writing manifest file '../../build/Agro_ros/Agro_ros.egg-info/SOURCES.txt'
+[0.618s] running build
+[0.618s] running build_py
+[0.618s] running install
+[0.618s] running install_lib
+[0.619s] running install_data
+[0.619s] running install_egg_info
+[0.621s] removing '/home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages/Agro_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.621s] Copying ../../build/Agro_ros/Agro_ros.egg-info to /home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages/Agro_ros-0.0.0-py3.10.egg-info
+[0.622s] running install_scripts
+[0.641s] writing list of installed files to '/home/ubuntu/ros/Agro_ros/build/Agro_ros/install.log'
+[0.661s] Invoked command in '/home/ubuntu/ros/Agro_ros/src/Agro_ros' returned '0': PYTHONPATH=/home/ubuntu/ros/Agro_ros/build/Agro_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros/Agro_ros/install/Agro_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Agro_ros build --build-base /home/ubuntu/ros/Agro_ros/build/Agro_ros/build install --record /home/ubuntu/ros/Agro_ros/build/Agro_ros/install.log --install-scripts $base/lib/Agro_ros --single-version-externally-managed install_data

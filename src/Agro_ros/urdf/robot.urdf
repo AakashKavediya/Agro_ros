@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<robot name="Agrobot">
+
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1"/>
+    </material>
+
+    <material name="green">
+        <color rgba="0 1 0 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <material name="white">
+        <color rgba="1 1 1 1"/>
+    </material>
+
+    <link name="base_footprint">
+        
+    </link>
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.6 0.5 0.2"/>
+            </geometry>
+            <origin xyz="0 0 0.1" rpy="0 0 0"/>
+            <material name="red"/>
+        </visual>
+    </link>
+
+
+
+    <link name="lidar">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <material name="green"/>
+        </visual>
+    </link>
+
+
+
+    <link name="left_rare_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+
+
+    <link name="right_rare_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+
+
+    <link name="left_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+
+
+    <link name="right_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="1.57 0 0"/>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+
+
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    </joint>
+
+
+    <joint name="base_lidar_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="lidar"/>
+        <origin xyz="0 0 0.225" rpy="0 0 0"/>
+    </joint>
+
+
+
+
+    <joint name="base_left_rare_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_rare_wheel"/>
+        <origin xyz="-0.15 0.255 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="base_right_rare_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_rare_wheel"/>
+        <origin xyz="0.15 0.255 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="base_left_front_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_front_wheel"/>
+        <origin xyz="-0.15 -0.255 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <joint name="base_right_front_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_front_wheel"/>
+        <origin xyz="0.15 -0.255 0" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+</robot>
