@@ -25,8 +25,8 @@ slam_toolbox:
     min_laser_range: 0.20
     max_laser_range: 12.0
 
-    minimum_time_interval: 0.1
-    transform_timeout: 1.0
+    minimum_time_interval: 0.05
+    transform_timeout: 2.0
     tf_buffer_duration: 30.0
 
     enable_interactive_mode: true
@@ -37,7 +37,7 @@ slam_toolbox:
     minimum_travel_distance: 0.05
     minimum_travel_heading: 0.05
 
-    scan_buffer_size: 10
+    scan_buffer_size: 20
     scan_buffer_maximum_scan_distance: 10.0
 
     do_loop_closing: true
