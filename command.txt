@@ -15,3 +15,68 @@ ros2 run joint_state_publisher_gui joint_state_publisher_gui
 
 #command to see join connection
 ros2 run tf2_tools view_frames
+
+
+
+make the lidar map
+
+terminal 1
+
+ros2 topic info /map
+
+ros2 topic echo /map --once
+
+source /opt/ros/humble/setup.bash
+source ~/ros/Agro_ros/install/setup.bash
+ros2 run rplidar_ros rplidar_composition --ros-args \
+  -p serial_port:=/dev/ttyUSB0 \
+  -p serial_baudrate:=115200 \
+  -p frame_id:=base_link \
+  -p angle_compensate:=true
+
+
+
+
+
+terminal 2
+
+source /opt/ros/humble/setup.bash
+source ~/ros/Agro_ros/install/setup.bash
+
+ros2 run robot_state_publisher robot_state_publisher \
+  --ros-args \
+  -p robot_description:="$(cat ~/ros/Agro_ros/src/Agro_ros/urdf/robot.urdf)"
+
+
+
+
+terminal 3
+
+
+source /opt/ros/humble/setup.bash
+source ~/ros/Agro_ros/install/setup.bash
+
+ros2 run rf2o_laser_odometry rf2o_laser_odometry_node \
+  --ros-args \
+  --params-file ~/ros/Agro_ros/rf2o_params.yaml
+
+
+
+terminal 4
+
+source /opt/ros/humble/setup.bash
+source ~/ros/Agro_ros/install/setup.bash
+
+ros2 launch slam_toolbox online_sync_launch.py \
+  slam_params_file:=/home/ubuntu/ros/Agro_ros/src/Agro_ros/slam_params.yaml \
+  use_sim_time:=false
+
+
+
+
+terminal 5
+
+source /opt/ros/humble/setup.bash
+source ~/ros/Agro_ros/install/setup.bash
+
+rviz2
