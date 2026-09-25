@@ -33,7 +33,7 @@
         <visual>
             <geometry>
                 <mesh filename="package://Agro_ros/meshes/agro_ros_body.stl"
-                      scale="0.05 0.05 0.05"/>
+                      scale="0.025 0.025 0.025"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="black"/>
@@ -44,7 +44,7 @@
         <visual>
             <geometry>
                 <mesh filename="package://Agro_ros/meshes/agro_ros_tracks.stl"
-                      scale="0.05 0.05 0.05"/>
+                      scale="0.025 0.025 0.025"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="red"/>
@@ -55,7 +55,7 @@
         <visual>
             <geometry>
                 <mesh filename="package://Agro_ros/meshes/agro_ros_tracks_outer_cover.stl"
-                      scale="0.05 0.05 0.05"/>
+                      scale="0.025 0.025 0.025"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="white"/>
@@ -66,7 +66,7 @@
         <visual>
             <geometry>
                 <mesh filename="package://Agro_ros/meshes/agro_ros_water_level_sensor.stl"
-                      scale="0.05 0.05 0.05"/>
+                      scale="0.025 0.025 0.025"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="red"/>
@@ -77,7 +77,7 @@
         <visual>
             <geometry>
                 <mesh filename="package://Agro_ros/meshes/agro_ros_water_pump.stl"
-                      scale="0.05 0.05 0.05"/>
+                      scale="0.025 0.025 0.025"/>
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <material name="white"/>
